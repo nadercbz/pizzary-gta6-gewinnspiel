@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GTA 6 Gewinnspiel Pizzary</title>
+<style>
+@font-face{font-family:'Bisko';src:url(assets/Bisko.otf)}
+@font-face{font-family:'Bright Dreams';src:url(assets/BrightDreams-Regular.ttf)}
+@font-face{font-family:'Hanken Grotesk';src:url(assets/HankenGrotesk.ttf);font-weight:100 900}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#151218;overflow:hidden;font-family:'Hanken Grotesk',Arial,sans-serif}
+#stage{position:absolute;left:0;top:0;width:1920px;height:1080px;transform-origin:0 0}
+#stage section{position:absolute;left:0;top:0;width:1920px;height:1080px;overflow:hidden}
+#stage section:not(.on){display:none !important}
+h1,h2,h3,p,ul{margin:0}
+table{width:100%;border-collapse:collapse}
+th,td{padding:0.35em 0.6em;border-bottom:2px solid #231F20;vertical-align:top}
+th{font-weight:700}
+#count{position:fixed;right:14px;bottom:10px;font:600 14px 'Hanken Grotesk',Arial,sans-serif;color:#F5F3EC;background:rgba(21,18,24,.65);padding:4px 10px;border-radius:12px;pointer-events:none}
+#hint{position:fixed;left:50%;bottom:10px;transform:translateX(-50%);font:500 14px 'Hanken Grotesk',Arial,sans-serif;color:#F5F3EC;background:rgba(21,18,24,.65);padding:4px 12px;border-radius:12px;pointer-events:none;transition:opacity .6s}
+</style>
+</head>
+<body>
+<div id="stage">
+<section id="cover" data-transition="fade" style="background:#DC1431;color:#F5F3EC;font-family:'Hanken Grotesk', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:space-between;gap:48px">
+<div style="position:absolute;left:1060px;top:150px;width:700px;height:700px;border-radius:50%;background:#F7F1A6"></div>
+<img src="assets/steve_ganzkoerper_lila.png" alt="Steve im Pizzary Shirt hält eine Pizza und zeigt einladend zur Seite" style="position:absolute;left:1030px;top:130px;width:740px;height:745px;object-fit:contain">
+<img src="assets/Primaerlogo_zweizeilig_weiss_RGB.svg" alt="The Pizzary Logo" style="width:260px;height:96px;object-fit:contain">
+<h1 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:104px;font-weight:400;line-height:1.05;text-transform:uppercase;color:#F5F3EC">Zwei<br>Missionen.<br><span style="color:#F7F1A6">Ein GTA 6.</span></h1>
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-family:'Bisko', Arial, sans-serif;font-size:44px;line-height:1.2;text-transform:uppercase;color:#F5F3EC">Gewinnspiel Plan, Video und Sprechertext für Steve</p>
+<p style="font-size:28px;color:#F7F1A6">Stand 11.11.2026</p>
+</div>
+</section>
+
+<section id="challenge" data-transition="fade" style="background:#F5F3EC;color:#231F20;font-family:'Hanken Grotesk', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:64px">
+<h2 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:72px;font-weight:400;line-height:1.1;text-transform:uppercase">Die Challenge</h2>
+<div style="display:flex;gap:32px">
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#DC1431;color:#F5F3EC;padding:48px;border-radius:24px">
+<p style="font-family:'Bisko', Arial, sans-serif;font-size:40px;line-height:1.1;text-transform:uppercase;color:#F7F1A6">Mission 1</p>
+<h3 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:52px;font-weight:400;line-height:1.1;text-transform:uppercase">Spruch an die Wand</h3>
+<p style="font-size:30px;line-height:1.4">Komm in den Laden, nimm einen Marker und schreib deinen besten Spruch an die Pizza Wall.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#5F7BD6;color:#151218;padding:48px;border-radius:24px">
+<p style="font-family:'Bisko', Arial, sans-serif;font-size:40px;line-height:1.1;text-transform:uppercase;color:#151218">Mission 2</p>
+<h3 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:52px;font-weight:400;line-height:1.1;text-transform:uppercase">Logo in die Story</h3>
+<p style="font-size:30px;line-height:1.4">Mach ein Foto vom Logo im Laden, poste es in deine Story und tagg uns.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#231F20;color:#F5F3EC;padding:48px;border-radius:24px">
+<p style="font-family:'Bisko', Arial, sans-serif;font-size:40px;line-height:1.1;text-transform:uppercase;color:#F7F1A6">Danach</p>
+<h3 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:52px;font-weight:400;line-height:1.1;text-transform:uppercase;color:#F7F1A6">Du bist im Topf</h3>
+<p style="font-size:30px;line-height:1.4">Beide Missionen geschafft? Dann nimmst du automatisch an der Verlosung teil.</p>
+<div style="display:flex;gap:16px">
+<svg viewBox="0 0 24 24" style="width:56px;height:56px;color:#F7F1A6" fill="currentColor" aria-label="Stern"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01z"/></svg>
+<svg viewBox="0 0 24 24" style="width:56px;height:56px;color:#F7F1A6" fill="currentColor" aria-label="Stern"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01z"/></svg>
+</div>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A5558">Preis: GTA 6 Ultimate Edition für PS5 oder Xbox. Kein Kauf nötig. Ab 18 Jahren.</p>
+</section>
+
+<section id="ablauf" data-transition="fade" style="background:#F5F3EC;color:#231F20;font-family:'Hanken Grotesk', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<h2 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:72px;font-weight:400;line-height:1.1;text-transform:uppercase">Der Weg ins Los</h2>
+<div style="display:flex;gap:24px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FBFAF4;border:2px solid #231F20;padding:40px;border-radius:20px">
+<p style="font-family:'Bright Dreams', Arial, sans-serif;font-size:56px;line-height:1.1;color:#DC1431">1</p>
+<h3 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:40px;font-weight:400;line-height:1.1;text-transform:uppercase">Schreiben</h3>
+<p style="font-size:28px;line-height:1.4">Spruch an die Pizza Wall. Wir stempeln Feld 1 auf deiner Missionskarte.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FBFAF4;border:2px solid #231F20;padding:40px;border-radius:20px">
+<p style="font-family:'Bright Dreams', Arial, sans-serif;font-size:56px;line-height:1.1;color:#DC1431">2</p>
+<h3 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:40px;font-weight:400;line-height:1.1;text-transform:uppercase">Posten</h3>
+<p style="font-size:28px;line-height:1.4">Logo Foto in die Story. Beim Team zeigen, dann stempeln wir Feld 2.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FBFAF4;border:2px solid #231F20;padding:40px;border-radius:20px">
+<p style="font-family:'Bright Dreams', Arial, sans-serif;font-size:56px;line-height:1.1;color:#DC1431">3</p>
+<h3 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:40px;font-weight:400;line-height:1.1;text-transform:uppercase">Eintragen</h3>
+<p style="font-size:28px;line-height:1.4">Name und Instagram auf die Karte, Karte in die Los Box.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FBFAF4;border:2px solid #231F20;padding:40px;border-radius:20px">
+<p style="font-family:'Bright Dreams', Arial, sans-serif;font-size:56px;line-height:1.1;color:#DC1431">4</p>
+<h3 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:40px;font-weight:400;line-height:1.1;text-transform:uppercase">Ziehung</h3>
+<p style="font-size:28px;line-height:1.4">Donnerstag 19.11. um 18:00, live im Laden und auf Instagram.</p>
+</div>
+</div>
+<div style="display:flex;gap:24px">
+<div style="flex:1;display:flex;flex-direction:column;gap:6px;border-top:6px solid #DC1431;padding:20px 0 0 0">
+<p style="font-family:'Bright Dreams', Arial, sans-serif;font-size:40px;line-height:1.1;text-transform:uppercase">Mi 11.11.</p>
+<p style="font-size:28px;line-height:1.4">Wand und Karten vorbereiten, Video drehen</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:6px;border-top:6px solid #DC1431;padding:20px 0 0 0">
+<p style="font-family:'Bright Dreams', Arial, sans-serif;font-size:40px;line-height:1.1;text-transform:uppercase">Do 12.11.</p>
+<p style="font-size:28px;line-height:1.4">Start: Video online, Missionen laufen</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:6px;border-top:6px solid #DC1431;padding:20px 0 0 0">
+<p style="font-family:'Bright Dreams', Arial, sans-serif;font-size:40px;line-height:1.1;text-transform:uppercase">Mi 18.11.</p>
+<p style="font-size:28px;line-height:1.4">Teilnahmeschluss um 22:30</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:6px;border-top:6px solid #DC1431;padding:20px 0 0 0">
+<p style="font-family:'Bright Dreams', Arial, sans-serif;font-size:40px;line-height:1.1;text-transform:uppercase">Do 19.11.</p>
+<p style="font-size:28px;line-height:1.4">Ziehung am Release Tag</p>
+</div>
+</div>
+</section>
+
+<section id="video" data-transition="fade" style="background:#F7F1A6;color:#231F20;font-family:'Hanken Grotesk', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<h2 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:72px;font-weight:400;line-height:1.1;text-transform:uppercase">Video: Aufruf in 42 Sekunden</h2>
+<table style="font-size:28px;color:#231F20">
+<tr><th style="width:18%;text-align:left">Zeit</th><th style="width:50%;text-align:left">Szene</th><th style="width:32%;text-align:left">Einblendung</th></tr>
+<tr style="background:#FBF7C8"><td>0:00 bis 0:04</td><td>Hook. Steve steht vor der Pizza Wall und schaut in die Kamera.</td><td>GTA 6 ULTIMATE</td></tr>
+<tr><td>0:04 bis 0:15</td><td>Mission 1. Hand schreibt einen Spruch an die Wand, dann Totale der vollen Wand.</td><td>MISSION 1: SPRUCH AN DIE WAND</td></tr>
+<tr style="background:#FBF7C8"><td>0:15 bis 0:26</td><td>Mission 2. Handy filmt das Logo, Daumen tippt auf Story posten.</td><td>MISSION 2: LOGO IN DIE STORY</td></tr>
+<tr><td>0:26 bis 0:33</td><td>Karte. Stempel auf die Missionskarte, Karte fällt in die Los Box.</td><td>2 STERNE: DU BIST IM TOPF</td></tr>
+<tr style="background:#FBF7C8"><td>0:33 bis 0:42</td><td>Ende. Steve zeigt zur Tür, danach Endkarte mit Datum und Adresse.</td><td>BIS 18.11. ZIEHUNG 19.11.</td></tr>
+</table>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#4A4540">9:16, iPhone, Untertitel einbrennen, Steve in zwei Takes, keine Herstellung zeigen. Nur Wand, Logo, Karte und Steve.</p>
+</section>
+
+<section id="text-1" data-transition="fade" style="background:#231F20;color:#F5F3EC;font-family:'Hanken Grotesk', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<h2 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:72px;font-weight:400;line-height:1.1;text-transform:uppercase;color:#F7F1A6">Sprechertext für Steve, Teil 1</h2>
+<div style="display:flex;flex-direction:column">
+<div style="display:flex;gap:56px;align-items:flex-start;padding:28px 0;border-bottom:2px solid #4A4448">
+<div style="width:340px;display:flex;flex-direction:column;gap:4px">
+<p style="font-family:'Bright Dreams', Arial, sans-serif;font-size:36px;line-height:1.1;text-transform:uppercase;color:#DC1431">Hook</p>
+<p style="font-family:'Bisko', Arial, sans-serif;font-size:32px;line-height:1.2;color:#F5F3EC">0:00</p>
+</div>
+<p style="flex:1;font-size:40px;font-weight:500;line-height:1.4">Wir verlosen GTA 6. Die Ultimate Edition für PS5 oder Xbox. Und nein, du musst dafür keine Pizza kaufen.</p>
+</div>
+<div style="display:flex;gap:56px;align-items:flex-start;padding:28px 0;border-bottom:2px solid #4A4448">
+<div style="width:340px;display:flex;flex-direction:column;gap:4px">
+<p style="font-family:'Bright Dreams', Arial, sans-serif;font-size:36px;line-height:1.1;text-transform:uppercase;color:#DC1431">Mission 1</p>
+<p style="font-family:'Bisko', Arial, sans-serif;font-size:32px;line-height:1.2;color:#F5F3EC">0:04</p>
+</div>
+<p style="flex:1;font-size:40px;font-weight:500;line-height:1.4">Mission eins. Komm in die Pizzary, schnapp dir einen Marker und schreib deinen besten Spruch an die Pizza Wall. Lustig, frech, deins.</p>
+</div>
+<div style="display:flex;gap:56px;align-items:flex-start;padding:28px 0">
+<div style="width:340px;display:flex;flex-direction:column;gap:4px">
+<p style="font-family:'Bright Dreams', Arial, sans-serif;font-size:36px;line-height:1.1;text-transform:uppercase;color:#DC1431">Mission 2</p>
+<p style="font-family:'Bisko', Arial, sans-serif;font-size:32px;line-height:1.2;color:#F5F3EC">0:15</p>
+</div>
+<p style="flex:1;font-size:40px;font-weight:500;line-height:1.4">Mission zwei. Mach ein Foto von unserem Logo, poste es in deine Story und tagg uns.</p>
+</div>
+</div>
+</section>
+
+<section id="text-2" data-transition="fade" style="background:#231F20;color:#F5F3EC;font-family:'Hanken Grotesk', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<h2 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:72px;font-weight:400;line-height:1.1;text-transform:uppercase;color:#F7F1A6">Sprechertext für Steve, Teil 2</h2>
+<div style="display:flex;flex-direction:column">
+<div style="display:flex;gap:56px;align-items:flex-start;padding:28px 0;border-bottom:2px solid #4A4448">
+<div style="width:340px;display:flex;flex-direction:column;gap:4px">
+<p style="font-family:'Bright Dreams', Arial, sans-serif;font-size:36px;line-height:1.1;text-transform:uppercase;color:#DC1431">Karte</p>
+<p style="font-family:'Bisko', Arial, sans-serif;font-size:32px;line-height:1.2;color:#F5F3EC">0:26</p>
+</div>
+<p style="flex:1;font-size:40px;font-weight:500;line-height:1.4">Beide Missionen geschafft? Dann stempeln wir deine Karte und du bist automatisch im Topf.</p>
+</div>
+<div style="display:flex;gap:56px;align-items:flex-start;padding:28px 0;border-bottom:2px solid #4A4448">
+<div style="width:340px;display:flex;flex-direction:column;gap:4px">
+<p style="font-family:'Bright Dreams', Arial, sans-serif;font-size:36px;line-height:1.1;text-transform:uppercase;color:#DC1431">Deadline</p>
+<p style="font-family:'Bisko', Arial, sans-serif;font-size:32px;line-height:1.2;color:#F5F3EC">0:33</p>
+</div>
+<p style="flex:1;font-size:40px;font-weight:500;line-height:1.4">Mitmachen geht bis Mittwoch, 18. November. Gezogen wird am Donnerstag, 19. November. Das ist der Release Tag. Live bei uns im Laden.</p>
+</div>
+<div style="display:flex;gap:56px;align-items:flex-start;padding:28px 0">
+<div style="width:340px;display:flex;flex-direction:column;gap:4px">
+<p style="font-family:'Bright Dreams', Arial, sans-serif;font-size:36px;line-height:1.1;text-transform:uppercase;color:#DC1431">Ende</p>
+<p style="font-family:'Bisko', Arial, sans-serif;font-size:32px;line-height:1.2;color:#F5F3EC">0:38</p>
+</div>
+<p style="flex:1;font-size:40px;font-weight:500;line-height:1.4">Zimmerstraße 91. The Pizzary. Deine Pizza. Deine Regeln. Und vielleicht dein GTA.</p>
+</div>
+</div>
+</section>
+
+<section id="klaeren" data-transition="fade" style="background:#F5F3EC;color:#231F20;font-family:'Hanken Grotesk', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:56px">
+<h2 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:72px;font-weight:400;line-height:1.1;text-transform:uppercase">Vor dem Start klären</h2>
+<div style="display:grid;grid-template-columns:repeat(3, 1fr);gap:24px">
+<div style="display:flex;flex-direction:column;gap:14px;background:#DC1431;color:#F5F3EC;padding:40px;border-radius:20px">
+<h3 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:40px;font-weight:400;line-height:1.1;text-transform:uppercase">Edition</h3>
+<p style="font-size:28px;line-height:1.4">Rockstar nennt Standard und Ultimate, kein Deluxe. Wir schreiben Ultimate. Im Store prüfen.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:14px;background:#FBFAF4;border:2px solid #231F20;padding:40px;border-radius:20px">
+<h3 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:40px;font-weight:400;line-height:1.1;text-transform:uppercase">Datum</h3>
+<p style="font-size:28px;line-height:1.4">Release laut Rockstar am 19.11., nur PS5 und Xbox, als Code. Daran hängt die Ziehung.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:14px;background:#FBFAF4;border:2px solid #231F20;padding:40px;border-radius:20px">
+<h3 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:40px;font-weight:400;line-height:1.1;text-transform:uppercase">Gewinn</h3>
+<p style="font-size:28px;line-height:1.4">Steve klärt, wie der Code zum Gewinner kommt. Rund 100 $ laut Rockstar, Euro im Store prüfen.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:14px;background:#FBFAF4;border:2px solid #231F20;padding:40px;border-radius:20px">
+<h3 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:40px;font-weight:400;line-height:1.1;text-transform:uppercase">Bedingungen</h3>
+<p style="font-size:28px;line-height:1.4">Ab 18, kein Kauf nötig, nicht von Instagram oder Rockstar, Daten nur für die Ziehung.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:14px;background:#FBFAF4;border:2px solid #231F20;padding:40px;border-radius:20px">
+<h3 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:40px;font-weight:400;line-height:1.1;text-transform:uppercase">Wandregeln</h3>
+<p style="font-size:28px;line-height:1.4">Keine Beleidigungen, kein Hass, keine Namen von Personen. Steve darf Sprüche entfernen.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:14px;background:#5F7BD6;color:#151218;padding:40px;border-radius:20px">
+<h3 style="font-family:'Bright Dreams', Arial, sans-serif;font-size:40px;font-weight:400;line-height:1.1;text-transform:uppercase">Material</h3>
+<p style="font-size:28px;line-height:1.4">Wandschild, Missionskarte, Los Box, dicke Marker und ein QR zu den Bedingungen.</p>
+</div>
+</div>
+</section>
+
+</div>
+<div id="count"></div>
+<div id="hint">Pfeiltasten oder Wischen zum Blättern</div>
+<script>
+(function(){
+  var stage=document.getElementById('stage'),slides=[].slice.call(stage.children),i=0,count=document.getElementById('count'),hint=document.getElementById('hint');
+  function fit(){var s=Math.min(innerWidth/1920,innerHeight/1080);stage.style.transform='translate('+((innerWidth-1920*s)/2)+'px,'+((innerHeight-1080*s)/2)+'px) scale('+s+')'}
+  function show(n){i=Math.max(0,Math.min(slides.length-1,n));slides.forEach(function(s,k){s.classList.toggle('on',k===i)});count.textContent=(i+1)+' / '+slides.length;try{history.replaceState(null,'','#'+(i+1))}catch(e){}}
+  addEventListener('resize',fit);
+  addEventListener('keydown',function(e){if(['ArrowRight','PageDown',' ','Enter'].indexOf(e.key)>-1){e.preventDefault();show(i+1)}else if(['ArrowLeft','PageUp','Backspace'].indexOf(e.key)>-1){e.preventDefault();show(i-1)}else if(e.key==='Home')show(0);else if(e.key==='End')show(slides.length-1)});
+  var x0=null;
+  addEventListener('touchstart',function(e){x0=e.touches[0].clientX},{passive:true});
+  addEventListener('touchend',function(e){if(x0===null)return;var dx=e.changedTouches[0].clientX-x0;x0=null;if(Math.abs(dx)>40)show(i+(dx<0?1:-1));else show(i+(e.changedTouches[0].clientX>innerWidth/2?1:-1))});
+  addEventListener('click',function(e){if('ontouchstart' in window)return;show(i+(e.clientX>innerWidth/2?1:-1))});
+  fit();show((parseInt(location.hash.slice(1),10)||1)-1);
+  setTimeout(function(){hint.style.opacity=0},4000);
+})();
+</script>
+</body>
+</html>
